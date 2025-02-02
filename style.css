@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--bg-color);
+}
+
+header {
+  background-color: var(--acc-color);
+
+  padding: 2em 4em;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: var(--bg-color);
+  margin-left: 2rem;
+}
+
+.navigation_bar ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  list-style-type: none;
+}
+
+.navigation_bar a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: var(--bg-color);
+}
+
+#heroImg img {
+  width: 100%;
+}
+
+#heroImg {
+  position: relative;
+  text-align: center;
+  align-items: center;
+}
+
+#heroImg .heroOverlay {
+  font-size: 2vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: #0000007d;
+  color: white;
+  padding: 1.5em;
+  border-radius: 0.25em;
+}
+
+.heroOverlay h1 {
+  font-size: 2em;
+}
+
+.heroOverlay p {
+  margin-top: 0.5em;
+}
+
+.text_section {
+  font-size: 2vw;
+  padding: 2em 8em;
+  text-align: center;
+}
+
+.text_section p {
+  margin-top: 1em;
+}
+
+#goals {
+  background-color: var(--acc-color);
+  color: var(--bg-color);
+}
+#goals ol {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#goals ol li {
+  width: fit-content;
+}
